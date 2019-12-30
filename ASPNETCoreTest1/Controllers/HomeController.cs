@@ -33,5 +33,13 @@ namespace ASPNETCoreTest1.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult ThrowExceptionTest()
+        {
+            int zero = 0;
+            int xx = zero / zero; // this will be exception, maybe :-)
+
+            return View("Index");
+        }
     }
 }
