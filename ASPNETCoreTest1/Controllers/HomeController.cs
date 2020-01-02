@@ -36,6 +36,8 @@ namespace ASPNETCoreTest1.Controllers
 
         public IActionResult ThrowExceptionTest()
         {
+            // exception test
+
             int zero = 0;
             int xx = zero / zero; // this will be exception, maybe :-)
 
