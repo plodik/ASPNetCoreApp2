@@ -40,7 +40,7 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: test
-    projects: '**/*Tests/*.csproj'
+    projects: '**/*UnitTest*/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
 
 - task: PublishBuildArtifacts@1
