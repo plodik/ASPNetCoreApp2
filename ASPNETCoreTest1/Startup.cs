@@ -10,14 +10,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 namespace ASPNETCoreTest1
-
-
-
-SSSSS
-
-
-
-
 {
     public class Startup
     {
