@@ -37,6 +37,12 @@ steps:
       !**\obj\**
     searchFolder: '$(System.DefaultWorkingDirectory)'
 
+- task: DotNetCoreCLI@2
+  inputs:
+    command: test
+    projects: '**/*UnitTest*/*.csproj'
+    arguments: '--configuration $(buildConfiguration)'
+
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
