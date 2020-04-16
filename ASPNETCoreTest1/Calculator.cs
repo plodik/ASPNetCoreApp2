@@ -11,7 +11,7 @@ namespace ASPNETCoreTest1
         {
             if(input1 > 5)
             {
-                return input1 + input2 + 1000;
+                return input2 + input2 + 5;
             }
             else
             {
