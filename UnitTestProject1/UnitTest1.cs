@@ -28,5 +28,11 @@ namespace UnitTestProject1
         {
             Assert.AreEqual(2, 2);
         }
+
+        [TestMethod]
+        public void TestMethod5()
+        {
+            Assert.AreEqual(3, 3);
+        }
     }
 }
