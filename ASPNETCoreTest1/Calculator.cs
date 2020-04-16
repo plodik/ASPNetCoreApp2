@@ -11,7 +11,7 @@ namespace ASPNETCoreTest1
         {
             if(input1 > 5)
             {
-                return input2 + input2 + 55465464646464;
+                return input1 + input2 + 5;
                 throw new Exception();
             }
             else
