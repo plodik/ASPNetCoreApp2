@@ -13,4 +13,8 @@
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ASPNETCoreTest1\ASPNETCoreTest1.csproj" />
+  </ItemGroup>
+
 </Project>
