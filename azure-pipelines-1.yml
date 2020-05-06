@@ -117,3 +117,6 @@ stages:
                   $Path = Split-Path '$(System.ArtifactsDirectory)' -Parent;
                   $Artifact = "$Path\App Package\*.app";
                   Copy-Item $Artifact 'C:\Release\';
+
+
+- echo 'dobry den'
