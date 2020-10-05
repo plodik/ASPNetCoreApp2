@@ -32,6 +32,7 @@ namespace AutomatedUITests
 
             // comment added 11:05
             // second comment...
+            // third comment...
         }
     }
 }
