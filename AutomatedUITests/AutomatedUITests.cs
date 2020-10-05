@@ -31,6 +31,7 @@ namespace AutomatedUITests
             Assert.Contains("Use this page to detail your site's privacy policy", _driver.PageSource);
 
             // comment added 11:05
+            // second comment...
         }
     }
 }
