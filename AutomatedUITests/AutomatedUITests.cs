@@ -29,6 +29,8 @@ namespace AutomatedUITests
 
             Assert.Equal("Privacy Policy - ASPNETCoreTest1", _driver.Title);
             Assert.Contains("Use this page to detail your site's privacy policy", _driver.PageSource);
+
+            // comment added 11:05
         }
     }
 }
