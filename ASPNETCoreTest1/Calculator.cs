@@ -16,12 +16,11 @@ namespace ASPNETCoreTest1
             }
             else
             {
-                return input1 + input2;
+                return input1 + input2 + 1;
             }
 
             // first comment // 2222222 bla bla bla
         }
     }
 }
-
 // end of file...
