@@ -15,6 +15,8 @@ namespace ASPNETCoreTest1
                 //throw new Exception();
 
                 // comment 1
+
+                // comment 2
             }
             else
             {
