@@ -13,6 +13,8 @@ namespace ASPNETCoreTest1
             {
                 return input1 + input2 + 4;
                 //throw new Exception();
+
+                // comment 1
             }
             else
             {
