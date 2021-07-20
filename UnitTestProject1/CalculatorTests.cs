@@ -17,7 +17,7 @@ namespace ASPNETCoreTest1.Tests
             Assert.AreEqual(4, result);
 
             result = calc.Sum(10, 3); // result should be 17
-            Assert.AreEqual(17, result);
+            Assert.AreEqual(18, result);
         }
     }
 }
