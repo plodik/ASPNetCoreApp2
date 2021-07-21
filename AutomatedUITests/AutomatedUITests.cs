@@ -22,7 +22,7 @@ namespace AutomatedUITests
         }
 
         [Fact]
-        public void Create_WhenExecuted_ReturnsCreateView()
+        public void UITest_CheckMicrosoftHomePage()
         {
             _driver.Navigate().GoToUrl("https://www.microsoft.com/cs-cz/");
 
