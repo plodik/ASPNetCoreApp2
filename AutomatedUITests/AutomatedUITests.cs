@@ -24,17 +24,10 @@ namespace AutomatedUITests
         [Fact]
         public void Create_WhenExecuted_ReturnsCreateView()
         {
-            _driver.Navigate()
-                .GoToUrl("https://localhost:44311/Home/Privacy");
+            _driver.Navigate().GoToUrl("https://www.microsoft.com/cs-cz/");
 
-            Assert.Equal("Privacy Policy - ASPNETCoreTest1", _driver.Title);
-            Assert.Contains("Use this page to detail your site's privacy policy", _driver.PageSource);
-
-            // comment added 11:05
-            // second comment...
-            // third comment...
-            // fourth comment...
-            // fifth comment...
+            Assert.Equal("Oficiální domovská stránka Microsoft", _driver.Title);
+            Assert.Contains("Co je nového", _driver.PageSource);
         }
     }
 }
