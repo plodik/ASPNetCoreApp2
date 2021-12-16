@@ -26,7 +26,7 @@ namespace AutomatedUITests
         {
             _driver.Navigate().GoToUrl("https://www.microsoft.com/cs-cz/");
 
-            Assert.Equal("Oficiální domovská stránka Microsoft", _driver.Title);
+            Assert.Equal("Microsoft – cloud, počítače, aplikace a hry", _driver.Title);
             Assert.Contains("Co je nového", _driver.PageSource);
         }
     }
