@@ -20,6 +20,8 @@ namespace ASPNETCoreTest1.Tests
             Assert.AreEqual(17, result);
 
             // new line...
+
+            // new line from browser
         }
     }
 }
