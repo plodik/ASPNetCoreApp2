@@ -18,6 +18,8 @@ namespace ASPNETCoreTest1.Tests
 
             result = calc.Sum(10, 3); // result should be 17
             Assert.AreEqual(17, result);
+
+            // new line...
         }
     }
 }
