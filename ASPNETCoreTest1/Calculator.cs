@@ -25,6 +25,8 @@ namespace ASPNETCoreTest1
                 // comment 6 from browser
 
                 // comment 7
+
+                // comment 8
             }
             else
             {
