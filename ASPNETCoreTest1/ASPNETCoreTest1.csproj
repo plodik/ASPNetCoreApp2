@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <ApplicationInsightsResourceId>/subscriptions/7fedb4c2-9ba5-4ae6-b3a4-cd70c5a4f423/resourcegroups/ASPNETCoreTestGroup/providers/microsoft.insights/components/ASPNETCoreTest120191230024837</ApplicationInsightsResourceId>
   </PropertyGroup>
 
