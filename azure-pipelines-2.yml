@@ -21,8 +21,6 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
-- task: SonarQubeAnalyze@4
-
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
